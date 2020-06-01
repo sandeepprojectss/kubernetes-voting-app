@@ -10,6 +10,8 @@ spec:
     matchLabels:
       name: vote-app-pod
       type: front-end
+  replicas: 1
+
   template:
     metadata:
       name: vote-app-pod
@@ -21,4 +23,3 @@ spec:
       containers:
         - name: vote-app-container
           image: dockersamples/vote
-  replicas: 1

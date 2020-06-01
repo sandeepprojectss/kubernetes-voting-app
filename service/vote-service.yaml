@@ -10,6 +10,7 @@ spec:
   ports:
     - port: 80
       targetPort: 80
+
   selector:
     name: vote-app-pod
     app: vote-app

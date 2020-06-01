@@ -9,6 +9,7 @@ spec:
   selector:
     matchLabels:
       name: worker-app-pod
+  replicas: 1
 
   template:
     metadata:
@@ -21,4 +22,3 @@ spec:
       containers:
         - name: worker-app-container
           image: dockersamples/worker
-  replicas: 1
