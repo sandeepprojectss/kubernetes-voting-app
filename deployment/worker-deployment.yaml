@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       name: worker-app-pod
-  replicas: 1
+  replicas: 2
 
   template:
     metadata:

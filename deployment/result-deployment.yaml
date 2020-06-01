@@ -10,7 +10,7 @@ spec:
     matchLabels:
       name: result-app-pod
       type: front-end
-  replicas: 1
+  replicas: 2
 
   template:
     metadata:
